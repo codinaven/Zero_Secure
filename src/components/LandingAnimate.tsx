@@ -1,4 +1,4 @@
-export default function SecurityLogo() {
+export default function LandingAnimate() {
   return (
     <div className="inline-flex cursor-pointer group">
       <svg
@@ -6,7 +6,7 @@ export default function SecurityLogo() {
         viewBox="0 0 64 64"
         fill="none"
         className="
-          w-15 h-15
+          w-125 h-125
           transition-all duration-500
           group-hover:scale-110
           group-hover:drop-shadow-[0_0_10px_#38BDF8]

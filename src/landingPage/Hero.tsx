@@ -1,4 +1,4 @@
-import securityImage from "../assets/securityImage.png";
+import LandingAnimate from "../components/LandingAnimate";
 export const Hero = () => {
   return (
     <div className="pl-55 pt-19">
@@ -39,12 +39,8 @@ export const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="p-30 pr-10 pb-10">
-          <img
-            src={securityImage}
-            alt="Security Illustration"
-            className="w-250 h-120 max-w-lg"
-          />
+        <div className="pl-12 pt-4">
+          <LandingAnimate />
         </div>
       </div>
     </div>
