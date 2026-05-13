@@ -6,7 +6,7 @@ export default function SecurityLogo() {
         viewBox="0 0 64 64"
         fill="none"
         className="
-          w-10 h-10
+          w-20 h-20
           transition-all duration-500
           group-hover:scale-110
           group-hover:drop-shadow-[0_0_10px_#38BDF8]
