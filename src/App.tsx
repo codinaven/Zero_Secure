@@ -4,6 +4,7 @@ import { Middle } from "./components/Middle";
 import { Intros } from "./landingPage/IntroCard";
 import "./App.css";
 import { Pricing } from "./components/Pricing";
+import { Footer } from "./landingPage/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Middle />
       <Pricing />
       <Intros />
+      <Footer />
     </div>
   );
 }

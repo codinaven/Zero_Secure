@@ -7,7 +7,7 @@ type useInfo = {
 
 export const TeamCards = ({ Name, Discription, Image, Role }: useInfo) => {
   return (
-    <div className="overflow-hidden w-72 h-120">
+    <div className="flex gap-4">
       <a href="#" className="group relative block bg-black">
         <img
           alt="Employe Image"
