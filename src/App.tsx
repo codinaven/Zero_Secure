@@ -1,6 +1,7 @@
 import { Header } from "./landingPage/Header";
 import { Hero } from "./landingPage/Hero";
-import { Middle } from "./components/Middle.tsx";
+import { Middle } from "./components/Middle";
+import { Intros } from "./landingPage/IntroCard";
 import "./App.css";
 import { Pricing } from "./components/Pricing";
 
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Middle />
       <Pricing />
+      <Intros />
     </div>
   );
 }
